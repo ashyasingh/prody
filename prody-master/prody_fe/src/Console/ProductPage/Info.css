@@ -1,0 +1,35 @@
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    background-color: #f9f9f9;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-right: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    box-shadow: 0 0px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.infoName {
+    font-weight: bold;
+}
+
+.infoSpacer {
+    height: 50px;
+}
+
+.infoPic {
+    width: 150px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    fill: #363636;
+}
+
+.infoCountryImage {
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+}

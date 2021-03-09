@@ -1,0 +1,49 @@
+.advertorialContainer {
+    width: 1000px;
+    padding: 20px;
+    border-right: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.advContainer0 {
+    display: flex;
+    flex-direction: row;
+}
+
+.advContainer1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.advContainer2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.advLogo {
+    height: 200px;
+}
+
+.advLogo, .adv1 {
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+.adv2, .adv3 {
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.adv4 {
+    margin-top: 10px;
+    border: 1px solid #cbcbcb;
+}
+.advLinks {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,35 @@
+.dropdown_container {
+    font-size: 15px;
+}
+
+.dropdown_header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #363636;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.dorpdown_header_icon_open {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.dropdown_list {
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.dropdown_item, .dropdown_filter {
+    padding: 2px;
+}
+
+.dropdown_item:hover {
+  background-color: #e3e1e1;
+  cursor: pointer;
+}

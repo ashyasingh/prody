@@ -1,0 +1,23 @@
+{
+  "name": "prody",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prod8080": "PORT=8080 pm2 start --name prody8080 app.js",
+    "prod8081": "PORT=8081 pm2 start --name prody8081 app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dateformat": "^3.0.3",
+    "ejs": "^2.7.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.5"
+  }
+}

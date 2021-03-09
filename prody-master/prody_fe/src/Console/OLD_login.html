@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Prody</title>
+        <link rel="icon" href="/public/img/icon.png" type="image/gif" sizes="16x16">
+<style>
+	body {font-family: Arial, Helvetica, sans-serif;
+		background-color: #f0efed;
+	}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #5da4e3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+	text-align: center;
+	padding: 16px;
+	background-color: white;
+	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+  	margin-top: 50px;
+}
+
+h2 {
+	color: #6383b0;
+}
+
+.incorrect {
+	color: red;
+	font-size: 14px;
+	display: none;
+}
+
+	img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 100px;
+
+	}
+
+
+</style>
+</head>
+<body>
+	<img src="/public/img/logo.png" alt="Prody.me" style="width:180px;height:60px;">
+	<div class="container">
+		<h2>Login</h2>
+
+		<form name="login" action="" onsubmit="return validation()">
+    		<input type="text" placeholder="Username" name="uname" required>
+    		<input type="password" placeholder="Password" name="psw" required>
+    		<button type="submit">Login</button>
+		</form>
+		<div class="incorrect" id="error">The username or password is incorrect</div>
+	</div>
+</body>
+
+<script>
+function validation() {
+	var usernameValue = document.forms["login"]["uname"].value;
+	var passValue = document.forms["login"]["psw"].value;
+	if(usernameValue !== "tnuva" || passValue !== "tnuva123")
+		{document.getElementById("error").style.display = "inline";
+		return false;}
+		else {window.location.replace("https://app.powerbi.com/view?r=eyJrIjoiZTAxNjM4MDgtYjNlNC00NDVhLTkyMTUtZTE0OGM5MTljZDY3IiwidCI6IjE5MDIwMjcxLTQ3YzYtNGFkZS05M2M4LWZiZTk2NGRhZmFhMCIsImMiOjl9");
+				return false;}
+}
+</script>
+
+</html>
+
+

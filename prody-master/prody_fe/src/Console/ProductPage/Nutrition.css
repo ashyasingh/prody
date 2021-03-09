@@ -1,0 +1,19 @@
+.nutritionContainer {
+    display: flex;
+    border-bottom: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+}
+
+.nutritionTable {
+    margin: 10px;
+    width: 600px;
+}
+
+.nutritionIngredients {
+    margin: 10px;
+    width: 400px;
+}
+
+.nutritionContent {
+    width: 560px;
+}

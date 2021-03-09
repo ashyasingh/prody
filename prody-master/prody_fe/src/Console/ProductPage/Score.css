@@ -1,0 +1,28 @@
+.scoreContainer {
+    padding: 20px;
+    text-align: center;
+}
+
+.scoreRed {
+    color: red;
+}
+
+.scoreOrange {
+    color: orange;
+}
+
+.scoreGreen {
+    color: green;
+}
+
+.score {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.scoreContent {
+    display: flex;
+    align-self: flex-end;
+    height: 60px;
+    justify-content: center;
+}

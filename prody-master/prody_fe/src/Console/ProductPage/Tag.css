@@ -1,0 +1,23 @@
+.tagContainerEng {
+
+}
+
+.tagContainerHeb {
+    direction: rtl;
+}
+
+.tagContent {
+display: flex;
+flex-wrap: wrap;
+}
+
+.tag {
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 6px;
+    background-color: #64acfa;
+    color: white;
+    border-radius: 10px;
+}

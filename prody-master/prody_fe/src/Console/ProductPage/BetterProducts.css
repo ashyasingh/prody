@@ -1,0 +1,9 @@
+.betterProductsContainer {
+    padding: 20px;
+    border-bottom: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+}
+
+.betterProductsContent {
+    width: 670px;
+}

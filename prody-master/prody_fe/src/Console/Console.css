@@ -1,0 +1,16 @@
+.consoleContainer {
+    height: 100vh;
+    display: flex;
+}
+
+.consoleNav {
+    width: 100px;
+    z-index: 100;
+}
+
+.consoleMain {
+    height: auto;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-left: 20px;
+}

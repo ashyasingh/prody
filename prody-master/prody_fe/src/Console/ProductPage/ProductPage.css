@@ -1,0 +1,18 @@
+.productPageSite {
+    /*height: 100%;*/
+}
+
+.productPageCards {
+    display: flex;
+    height: 100%;
+}
+
+.productPageInfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productPageMore {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,57 @@
+.LoginContainer {
+    margin-bottom: 400px;
+}
+
+.login-input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-button {
+  background-color: #64acfa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-button:hover {
+  opacity: 0.8;
+}
+
+.LoginSubContainer {
+	text-align: center;
+	padding: 16px;
+	background-color: white;
+	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+  	margin-top: 50px;
+}
+
+h2 {
+	color: #162d5a;
+}
+
+.loginFailed {
+	color: darkred;
+}
+
+.login-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+
+}
+
+.loginMissingData {
+    color: darkred;
+}

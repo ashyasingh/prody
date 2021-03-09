@@ -1,0 +1,53 @@
+.ingredientContainerEng {
+}
+
+.ingredientContainerHeb {
+    direction: rtl;
+}
+
+.notooltip {
+  visibility: hidden;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #4a4d4b;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: left;
+    margin-left: 2px;
+
+  /* Position the tooltip */
+  position: absolute;
+    right: 20px;
+    top: 200px;
+  z-index: 1;
+}
+
+.ingredientEng {
+    padding-right: 5px;
+}
+
+.ingredientHeb {
+    padding-left: 5px;
+}
+
+.ingredientEng:after { content: ", " }
+.ingredientEng:last-of-type:after { content: "" }
+.ingredientEng:hover {border-bottom: 1px solid #4a4d4b;}
+.ingredientEng:hover .tooltiptext {visibility: visible;}
+
+.ingredientHeb:after { content: ", " }
+.ingredientHeb:last-of-type:after { content: "" }
+.ingredientHeb:hover {border-bottom: 1px solid #4a4d4b;}
+.ingredientHeb:hover .tooltiptext {visibility: visible;
+    /*direction: rtl; NOT WORKING*/
+}
+
+.ingredientContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}

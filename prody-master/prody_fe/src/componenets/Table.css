@@ -1,0 +1,32 @@
+.Table {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    /* height: 250px; */
+
+}
+
+.numeric_value {
+  text-align: right;
+}
+
+th, td {
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+th {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.Table_row_clickable:hover {
+    cursor: pointer;
+    color: #64acfa;
+}

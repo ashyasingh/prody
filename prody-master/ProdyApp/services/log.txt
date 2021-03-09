@@ -1,0 +1,88 @@
+ This is my text. This is my text1.
+ This is my text2.
+ 2019-11-12 21:53:38 This is my text2
+ 2019-11-12 21:59:28  --- feedback --- [object Object]
+ 2019-11-12 22:03:53  --- feedback --- {
+  "user_id": 109,
+  "subject": "subject11",
+  "content": "content1",
+  "created_date": "2018-01-01 10:10:11"
+}
+ 2019-11-12 22:10:48  --- feedback --- {
+  "user_id": 109,
+  "subject": "subject11",
+  "content": "content1",
+  "created_date": "2018-01-01 10:10:11"
+}
+ 2019-11-12 22:10:48 updatePoints -> userID:109 addPoints:5
+ 2019-11-12 22:32:06 ---  complaint email data --- {
+  "prod_barcode": "11132507",
+  "prod_desc": "מיים סאן בנדטו 500 מ",
+  "issue_desc": "Taste",
+  "q1_desc": "What is the taste like?",
+  "q2_desc": "Is it rotten or just not fresh?",
+  "q3_desc": "Has this affected your health?",
+  "q4_desc": "Have you consumed this personally?",
+  "a1": "answer1",
+  "a2": "answer2",
+  "a3": "answer3",
+  "a4": "answer4",
+  "expired": 1,
+  "comments": "aaaaaaabbbbbbcccc",
+  "first_name": null,
+  "last_name": null,
+  "email": null,
+  "phone": null,
+  "preferred_contact_method": "whats appp",
+  "pic1": "120191112101010_product.jpg",
+  "pic2": "120191112101010_lot.jpg"
+}
+ 2019-11-12 22:34:58 ---  complaint email data --- {
+  "prod_barcode": "11132507",
+  "prod_desc": "מיים סאן בנדטו 500 מ",
+  "issue_desc": "Taste",
+  "q1_desc": "What is the taste like?",
+  "q2_desc": "Is it rotten or just not fresh?",
+  "q3_desc": "Has this affected your health?",
+  "q4_desc": "Have you consumed this personally?",
+  "a1": "answer1",
+  "a2": "answer2",
+  "a3": "answer3",
+  "a4": "answer4",
+  "expired": 1,
+  "comments": "aaaaaaabbbbbbcccc",
+  "first_name": null,
+  "last_name": null,
+  "email": null,
+  "phone": null,
+  "preferred_contact_method": "whats appp",
+  "pic1": "120191112101011_product.jpg",
+  "pic2": "120191112101011_lot.jpg"
+}
+ 2019-11-30 16:52:27 ---  getProduct --- barcode:38000167060219 country:ISR user:33
+ 2019-11-30 17:32:14 ---  getProduct --- barcode:38000167060219 country:ISR user:33
+ 2019-11-30 17:32:55 ---  getProduct --- barcode:38000167060219 country:ISR user:33
+ 2019-11-30 17:33:38 ---  getProduct --- barcode:38000167060219 country:ISR user:33
+ 2019-11-30 17:33:38 ---  getProduct --- barcode:4015400057369 country:ISR user:33
+ 2019-11-30 17:33:38 ---  getProduct --- barcode:3800016706029 country:ISR user:33
+ 2019-11-30 17:33:38 ---  getProduct --- barcode:3800016706029 country:ISR user:33
+ 2019-11-30 17:42:54 ---  getProduct --- barcode:3800016706029 country:ISR user:33
+ 2019-11-30 17:45:31 ---  getProduct --- barcode:380001670602900 country:ISR user:33
+ 2019-11-30 17:50:00 ---  getProduct --- barcode:380001670602900 country:ISR user:33
+ 2019-11-30 17:50:00 ---  getProduct --- barcode:3800016706029 country:ISR user:33
+ 2019-11-30 17:50:00 ---  getProduct --- barcode:4015400057369 country:ISR user:33
+ 2020-05-28 17:27:00 ---  getProduct --- barcode:11182700923 country:ISR user:1
+ 2020-05-30 12:53:12 ---  getProduct --- barcode:undefined country:undefined user:undefined
+ 2020-05-30 12:57:59 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-05-30 13:01:30 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-05-30 13:01:30 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-05-30 13:06:53 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-05-30 13:06:53 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-05-30 13:21:06 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-05-30 13:22:59 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-06-03 13:50:10 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-06-03 13:51:40 ---  getProduct --- barcode:7290013585257 user:208 country:ISR product_request_source:ProductList language:heb
+ 2020-12-21 17:43:08 ---  getProduct --- barcode:11210698055 user:1 country:ISR product_request_source:A language:ENG
+ 2020-12-21 18:20:28 ---  getProduct --- barcode:11210698055 user:1 country:ISR product_request_source:A language:ENG
+ 2020-12-21 18:39:36 ---  getProduct --- barcode:11210698055 user:1 country:ISR product_request_source:A language:ENG
+ 2020-12-21 19:22:36 ---  getProduct --- barcode:11210698055 user:1 country:ISR product_request_source:local language:ENG
