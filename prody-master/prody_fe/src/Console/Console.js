@@ -8,9 +8,11 @@ import Market from './Market/Market';
 import Ingredients from './Ingredients/Ingredients';
 import ProductPage from './ProductPage/ProductPage';
 import BrandPage from './BrandPage/BrandPage';
+import Surveys from './Surveys/Surveys';
 import AdvertorialManagement from './Advertorial/AdvertorialManagement';
 import Contact from './Contact/Contact';
 import './Console.css';
+
 
 const Console = () => {
 
@@ -48,8 +50,9 @@ const Console = () => {
                             <Route path="/productpage/:market?/:product?" component={ProductPage} />
                             <Route path="/brandpage/:market?/:brand?" component={BrandPage} />
                             <Route path="/market/" exact component={Market}/>
+                            <Route path="/surveys/" exact component={Surveys}/>
                             <Route path="/nutrition/" exact component={Nutrition}/>
-                            <Route path="/ingredients/" exact component={Ingredients}/>*/}
+                            <Route path="/ingredients/" exact component={Ingredients}/>
                             <Route path="/advertorial/:product?" exact component={AdvertorialManagement}/>
                             <Route path="/contact" exact component={Contact}/>
                         </Switch>

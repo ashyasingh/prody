@@ -11,6 +11,7 @@ import { ReactComponent as ListIcon } from '../../assets/list.svg';
 import { ReactComponent as MarketingIcon } from '../../assets/marketing.svg';
 import { ReactComponent as SearchIcon } from '../../assets/search.svg';
 import { ReactComponent as BrandIcon } from '../../assets/brand.svg';
+import {ReactComponent as SurveyIcon} from '../../assets/list.svg';
 
 // import { LoginContext } from '../Login/LoginContext';
 
@@ -65,6 +66,10 @@ const Nav = () => {
             <NavLink className="navLink" activeClassName="is-active" to="/brandpage/">
                 <div className='navIcon'><BrandIcon/></div>
                 <div>Brand Page</div>
+            </NavLink>
+            <NavLink className="navLink" activeClassName="is-active" to="/surveys/">
+                <div className='navIcon'><SurveyIcon/></div>
+                <div>Surveys</div>
             </NavLink>
             <div className='navSpacer'/>
             <Dropdown
