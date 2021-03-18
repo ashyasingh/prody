@@ -1,0 +1,18 @@
+.surveyPageSite {
+    /*height: 100%;*/
+}
+
+.surveyPageCards {
+    display: flex;
+    height: 100%;
+}
+
+.surveyPageInfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.surveyPageMore {
+    display: flex;
+    flex-direction: column;
+}

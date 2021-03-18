@@ -1,31 +1,45 @@
-import React, {useContext} from 'react';
-import Iframe from 'react-iframe'
-
-import getPowerBiURL from "../../utils/powerBiUrl";
+import React, { useContext , useEffect} from 'react';
+import {useHistory, useParams} from 'react-router-dom';
 import {ConsoleContext} from "../ConsoleContext";
+import SearchBar from './SearchBar';
+import './Surveys.css';
 
 
-const Surveys = ( ) => {
+const Surveys = () => {
+  
+    const { categoryContext, surveyContext, setSurveyContext} = useContext(ConsoleContext);
 
-    const { languageContext } = useContext(ConsoleContext);
-    const link = getPowerBiURL(languageContext).surveys;
+    const history = useHistory();
+    const params = useParams();
 
-       if (!link) {return <div>No Data Available yet</div>}
-        else {
-            return (
-                <div className="surveys" >
-            <Iframe
-                url = {link}
-                width="1300px"
-                height="700px"
-                id="myId"
-                className="myClassname"
-                display="initial"
-                position="relative"
-            />
-        </div>
-            );
-        }
+  
+
+    useEffect(() => {
+        if(surveyContext != params.survey) {return setSurveyContext(params.survey)}
+        },
+        [params]
+    );
+
+    const showCards = () => {
+         // if (1 != 1) {
+         if (!surveyContext || surveyContext == 'undefined') {
+            return (null)
+        } else {return (
+            <div className='surveyPageCards'>
+                <div className='surveyPageInfo'>
+                </div>
+                <div className='surveyPageMore'>
+                </div>
+            </div>
+        )}
+    };
+    return (
+            <div className='surveyPageSite'>
+                <SearchBar/>
+                {showCards()}
+            </div>
+    )
+ 
 };
 
 export default Surveys;
