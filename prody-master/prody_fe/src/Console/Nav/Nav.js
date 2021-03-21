@@ -11,7 +11,7 @@ import { ReactComponent as ListIcon } from '../../assets/list.svg';
 import { ReactComponent as MarketingIcon } from '../../assets/marketing.svg';
 import { ReactComponent as SearchIcon } from '../../assets/search.svg';
 import { ReactComponent as BrandIcon } from '../../assets/brand.svg';
-import {ReactComponent as SurveyIcon} from '../../assets/list.svg';
+import { ReactComponent as SurveyIcon } from '../../assets/surveys.svg';
 
 // import { LoginContext } from '../Login/LoginContext';
 
