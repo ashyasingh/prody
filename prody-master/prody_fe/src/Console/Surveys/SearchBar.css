@@ -1,12 +1,13 @@
 .searchBarContainer {
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: 1px solid #cbcbcb;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #cbcbcb;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
 }
 
 .searchBar_dropdown {
-  margin-right: 20px;
+margin-right: 20px;
 }
+

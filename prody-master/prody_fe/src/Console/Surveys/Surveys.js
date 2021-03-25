@@ -2,9 +2,9 @@ import React, { useContext , useEffect} from 'react';
 import {useHistory, useParams, Link} from 'react-router-dom';
 import {ConsoleContext} from "../ConsoleContext";
 import SearchBar from './SearchBar';
-//import NewSurveyPage from './NewSurveyPage';
 import './Surveys.css';
 
+const Surveys = () => {
     return (
             <div className='surveyPageSite'>
                 <p>
@@ -18,5 +18,5 @@ import './Surveys.css';
                 </Link>
             </div>
     )
-
+};
 export default Surveys;

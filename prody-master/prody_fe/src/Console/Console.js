@@ -12,6 +12,7 @@ import Surveys from './Surveys/Surveys';
 import AdvertorialManagement from './Advertorial/AdvertorialManagement';
 import Contact from './Contact/Contact';
 import './Console.css';
+import NewSurveyPage from './Surveys/NewSurveyPage';
 
 
 const Console = () => {
@@ -51,6 +52,7 @@ const Console = () => {
                             <Route path="/brandpage/:market?/:brand?" component={BrandPage} />
                             <Route path="/market/" exact component={Market}/>
                             <Route path="/surveys/" exact component={Surveys}/>
+                            <Route path="/newSurveyPage/" exact component={NewSurveyPage}/>
                             <Route path="/nutrition/" exact component={Nutrition}/>
                             <Route path="/ingredients/" exact component={Ingredients}/>
                             <Route path="/advertorial/:product?" exact component={AdvertorialManagement}/>

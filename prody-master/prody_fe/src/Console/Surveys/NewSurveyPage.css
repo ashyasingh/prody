@@ -1,21 +1,19 @@
-
-.surveyPageSite {
+.NewSurveyPagePageSite {
     /*height: 100%;*/
-  }
-  
-.surveyPageCards {
+}
+
+.NewSurveyPagePPageCards {
     display: flex;
     height: 100%;
 }
 
-.surveyPageInfo {
+.NewSurveyPagePPageInfo {
     display: flex;
     flex-wrap: wrap;
 }
 
-.surveyPageMore {
+.NewSurveyPagePPageMore {
     display: flex;
     flex-direction: column;
 }
-  
   
