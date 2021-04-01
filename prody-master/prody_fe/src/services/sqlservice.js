@@ -91,12 +91,12 @@ const readFromDb = (connection, sqlQuery) => {
         connection.execSql(request)
     })
 }
-
+//ID Name COMPANY_ID
 const getProducts = () => {
     return new Promise((resolve, reject) => {
         connectToServer()
             .then(connection => {
-                let sqlStr = 'SELECT TOP(2) [Name], [ProductNumber] FROM Production.Product'
+                let sqlStr = 'SELECT [Name] FROM PRODUCTS'
 
                 return readFromDb(connection, sqlStr)
             })
@@ -106,3 +106,13 @@ const getProducts = () => {
 }
 
 ipcMain.handle('getproducts', getProducts)
+
+// This method will be called when Electron has finished
+// initialization and is ready to create browser windows.
+// Some APIs can only be used after this event occurs.
+/*
+app.whenReady().then(() => {
+    createWindow()
+    require('./src/services/sqlservice')
+  })
+*/
